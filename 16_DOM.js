@@ -18,7 +18,7 @@ querySelectorAll은 => 배열처럼 반환됨
 
 
 
-
+2. 변경
 const title = document.querySelector('h2')  //h2를 title로 만든거임
 title.innerText = '안녕하세요!'
 title.style.color = 'blue'
@@ -29,7 +29,7 @@ title.style.color = 'blue'
 
 
 
-2. 생성
+3. 생성
 const title = document.createElement('h1') //문서에 있는 h1요소 하나 선택한 것 처럼 취급됨(실제론 없는데)
 title.innerText = "새로운 친구에요!"
 title.style.color = "red" //이래도 HTML창에서 안보임, 실제문서에 추가하지 않아서임
