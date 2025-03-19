@@ -46,7 +46,7 @@ const show = (apple, banana, orange) => {
   resultshow.innerText = orange;
 };
 
-
+/*
 프로젝트: 가위바위보 게임 만들기
 
 개요:
@@ -61,4 +61,5 @@ button
 
 .result
 .computer-choice
-.you-choice
+.you-choice*
+*/
